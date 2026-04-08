@@ -13,3 +13,13 @@ data/videos/*
 # Ignore system files
 .DS_Store
 .ipynb_checkpoints/
+
+# Env
+.env
+src/.env
+
+# Logs
+logs/
+data/*.csv
+# Jupyter
+*.ipynb
