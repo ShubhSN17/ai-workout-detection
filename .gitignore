@@ -28,4 +28,6 @@ logs/*.csv
 # Raw training exports
 data/*_keypoints.csv
 data/*_angles.csv
-``
+
+anaconda_projects/
+*.db
