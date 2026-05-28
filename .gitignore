@@ -1,15 +1,31 @@
-# Ignore virtual environment
+# Virtual Environment
 env/
-__pycache__/
 
-# Ignore videos
-data/videos/*
+# Python Cache
+__pycache__/
+*.pyc
+
+# System Files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# Generated CSV files
+data/squat_log_*.csv
+logs/*.csv
+
+# Videos
 *.mp4
 *.avi
 
-# Keep CSVs
-!data/*.csv
+# Secrets
+.env
 
-# Ignore system files
-.DS_Store
-.ipynb_checkpoints/
+# Raw training exports
+data/*_keypoints.csv
+data/*_angles.csv
+``
